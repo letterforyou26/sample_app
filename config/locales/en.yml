@@ -1,0 +1,19 @@
+en:
+  layouts:
+    application:
+      title: "Ruby on Rails Tutorial Sample App"
+  static_pages:
+    home:
+      fore_title: "Home"
+      name: "Sample App"
+      intro_1: "This is the home page for the"
+      name_tutorial: "Ruby on Rails Tutorial"
+      intro_2: "sample application."
+    help:
+      fore_title: "Help"
+      name: "Help"
+      intro_1: "Get help on the Ruby on Rails Tutorial at the"
+      name_1: "Rails Tutorial help page"
+      intro_2: "To get help on this sample app, see the"
+      name_2: "Ruby on Rails Tutorial"
+      intro_3: "book"
