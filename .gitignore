@@ -2,6 +2,9 @@
 /config/credentials.yml
 */application.yml
 /config/credentials.yml.enc
+.framgia-ci-result.temp.yml
+.framgia-ci-reports/
+
 
 # See https://help.github.com/articles/ignoring-files for more about ignoring files.
 #
