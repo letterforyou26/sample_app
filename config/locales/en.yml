@@ -2,6 +2,21 @@ en:
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
+    header:
+      logo: "Sample App"
+      header_1: "Home"
+      header_2: "Help"
+      header_3: "Log in"
+    footer:
+      small_1: ""
+      name_tutorial: "Ruby on Rails Tutorial"
+      small_2: "by"
+      author: "Michael Hartl"
+      footer_1: "About"
+      footer_2: "Contact"
+      footer_3: "News"
+      footer_4: "English"
+      footer_5: "Vietnamese"
   static_pages:
     home:
       fore_title: "Home"
@@ -13,7 +28,21 @@ en:
       fore_title: "Help"
       name: "Help"
       intro_1: "Get help on the Ruby on Rails Tutorial at the"
-      name_1: "Rails Tutorial help page"
+      name_1: "Rails Tutorial help page."
       intro_2: "To get help on this sample app, see the"
       name_2: "Ruby on Rails Tutorial"
-      intro_3: "book"
+      intro_3: "book."
+    contact:
+      fore_title: "Contact"
+      name: "Contact"
+      intro_1: "Contact the Ruby on Rails Tutorial about the sample app at the "
+      intro_2: "contact page."
+    about:
+      name: "About us"
+      intro: "About the sample app at the "
+      name_1: "about page"
+  users:
+    new:
+      fore_title: "Sign up"
+      name: "Sign up"
+      intro: "This will be a signup page for new users."
