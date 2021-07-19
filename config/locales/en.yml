@@ -1,4 +1,7 @@
 en:
+  general:
+    welcome: "Welcome to the Sample App!"
+    user_not_found: "User not found"
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
@@ -17,6 +20,10 @@ en:
       footer_3: "News"
       footer_4: "English"
       footer_5: "Vietnamese"
+  shared:
+    error_messages:
+      intro_1: "The form contains "
+      error: "error"
   static_pages:
     home:
       fore_title: "Home"
@@ -45,4 +52,8 @@ en:
     new:
       fore_title: "Sign up"
       name: "Sign up"
-      intro: "This will be a signup page for new users."
+      label_1: "Name"
+      label_2: "Email"
+      label_3: "Password"
+      label_4: "Confirmation"
+      submit_text: "Sign up"
