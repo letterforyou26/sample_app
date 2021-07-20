@@ -1,14 +1,14 @@
-<% provide :title, t(".fore_title") %>
+<% provide :title, t(".help") %>
 
 <h1>
-  <%= t ".fore_title" %>
+  <%= t ".help" %>
 </h1>
 <p>
-  <%= t ".intro_1" %>
-  <%= link_to t(".name_1"), Settings.rails_help_link %>
-  <%= t ".intro_2" %>
+  <%= t ".page_intro" %>
+  <%= link_to t(".help_page"), Settings.rails_help_link %>
+  <%= t ".book_intro" %>
   <em>
-    <%= link_to t(".name_2"), Settings.rails_book_link %>
+    <%= link_to t(".book_page"), Settings.rails_book_link %>
   </em>
-  <%= t ".intro_3" %>
+  <%= t ".book" %>
 </p>
