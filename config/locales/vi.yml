@@ -1,4 +1,7 @@
 vi:
+  general:
+    welcome: "Chào mừng đến với ứng dụng mẫu!"
+    user_not_found: "Không tìm thấy người dùng"
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
@@ -17,6 +20,10 @@ vi:
       footer_3: "Tin tức"
       footer_4: "Tiếng Anh"
       footer_5: "Tiếng Việt"
+  shared:
+    error_messages:
+      intro_1: "Nội dung bạn điền có "
+      error: "lỗi"
   static_pages:
     home:
       fore_title: "Trang chủ"
@@ -46,4 +53,8 @@ vi:
     new:
       fore_title: "Đăng ký"
       name: "Đăng ký"
-      intro: "Đây là trang đăng ký cho người dùng mới."
+      label_1: "Tên của bạn"
+      label_2: "Email"
+      label_3: "Mật khẩu"
+      label_4: "Xác nhận mật khẩu"
+      submit_text: "Đăng ký"
