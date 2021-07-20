@@ -1,7 +1,7 @@
 <% if @user.errors.any? %>
   <div id="error_explanation">
     <div class="alert alert-danger">
-      <%= t ".intro_1" %>
+      <%= t ".contains" %>
       <%= pluralize @user.errors.count, t(".error") %>.
     </div>
     <ul>
