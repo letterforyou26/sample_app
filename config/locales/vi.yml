@@ -32,6 +32,7 @@ vi:
       password: "Mật khẩu"
       new_user: "Chưa có tài khoản? "
       sign_up_now: "Đăng ký ngay!"
+      remember_me: "Lưu tài khoản"
   shared:
     error_messages:
       contains: "Nội dung bạn điền có "
