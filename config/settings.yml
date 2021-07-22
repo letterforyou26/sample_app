@@ -17,3 +17,6 @@ validate:
     max_length: 30
   password:
     min_length: 6
+gravatar_email: "http://gravatar.com/emails"
+image_size: 50
+items_per_page: 5

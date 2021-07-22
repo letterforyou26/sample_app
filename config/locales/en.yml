@@ -1,8 +1,12 @@
 en:
-  general:
-    welcome: "Welcome to the Sample App!"
-    user_not_found: "User not found"
-    failed_login: "Invalid email password combination."
+  welcome: "Welcome to the Sample App!"
+  user_not_found: "User not found"
+  failed_login: "Invalid email password combination."
+  profile_updated: "Profile updated"
+  profile_update_fail: "Profife update failed"
+  user_deleted: "User deleted"
+  delete_fail: "Delete fail!"
+  ls_login: "Please log in."
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
@@ -63,7 +67,18 @@ en:
   users:
     new:
       sign_up: "Sign up"
+    form:
       name: "Name"
       email: "Email"
       password: "Password"
       confirmation: "Confirmation"
+    edit:
+      edit_user: "Edit user"
+      save_changes: "Save changes"
+      update_your_profile: "Update your profile"
+      change: "Change"
+    user:
+      delete: "Delete"
+      you_sure: "You sure?"
+    index:
+      all_user: "All users"

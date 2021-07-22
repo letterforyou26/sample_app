@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
 
     return login user if check
 
-    flash.now[:danger] = t ".general.failed_login"
+    flash.now[:danger] = t "failed_login"
     render :new
   end
 
@@ -19,6 +19,6 @@ class SessionsController < ApplicationController
   def login user
     log_in user
     params[:session][:remember_me] == "1" ? remember(user) : forget(user)
-    redirect_to user
+    redirect_back_or user
   end
 end
