@@ -1,4 +1,6 @@
 class User < ApplicationRecord
+  USER_PARAMS = %i(name email password password_confirmation).freeze
+  has_many :microposts, dependent: :destroy
   attr_accessor :remember_token, :activation_token, :reset_token
 
   before_save :downcase_email
@@ -77,6 +79,10 @@ class User < ApplicationRecord
 
   def reset_digest_after_update
     update_attribute :reset_digest, nil
+  end
+
+  def feed
+    microposts
   end
 
   private
