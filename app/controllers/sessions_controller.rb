@@ -3,11 +3,13 @@ class SessionsController < ApplicationController
 
   def create
     user = User.find_by email: params[:session][:email].downcase
-    check = user&.authenticate params[:session][:password]
+    if user&.authenticate(params[:session][:password])
+      return login user if user.activated
 
-    return login user if check
-
-    flash.now[:danger] = t "failed_login"
+      flash[:warning] = t "account_not_actived"
+    else
+      flash.now[:danger] = t "failed_login"
+    end
     render :new
   end
 
