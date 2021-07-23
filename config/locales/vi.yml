@@ -5,12 +5,20 @@ vi:
   profile_updated: "Cập nhật thành công!"
   profile_update_fail: "Cập nhật thất bại"
   user_deleted: "Xóa thành công!"
+  user_not_found: "Không tìm thấy tài khoản"
   delete_fail: "Xóa thất bại!"
   pls_login: "Vui lòng đăng nhập trước."
   account_activated: "Đã kích hoạt tài khoản!"
   invalid_activation_link: "Link kích hoạt không khả dụng"
   account_not_actived: "Tài khoản chưa được kích hoạt. Hãy kiểm tra mail của bạn."
   check_mail: "Hãy kiểm tra mail của bạn để kích hoạt tài khoản."
+  mail_reset_pass: "Đã gửi Email với hướng dẫn reset mật khẩu"
+  mail_not_found: "Không tìm thấy địa chỉ Email"
+  can_not_empty: "không được trống"
+  pass_reset: "Mật khẩu đã được thay đổi."
+  reset_failed: "Thay đổi thất bại"
+  invalid_user: "Tài khoản không hợp lệ"
+  expired_pass: "Quá hạn thay đổi mật khẩu."
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
@@ -33,6 +41,16 @@ vi:
       news: "Tin tức"
       english: "Tiếng Anh"
       vietnamese: "Tiếng Việt"
+  password_resets:
+    edit:
+      reset_pass: "Thay đổi mật khẩu"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận"
+      update_pass: "Thay đổi mật khẩu"
+    new:
+      forgot_pass: "Quên mật khẩu"
+      email: "Email"
+      submit: "Xác nhận"
   sessions:
     new:
       login: "Đăng nhập"
@@ -41,6 +59,7 @@ vi:
       new_user: "Chưa có tài khoản? "
       sign_up_now: "Đăng ký ngay!"
       remember_me: "Lưu tài khoản"
+      forgot_pass: "Quên mật khẩu"
   shared:
     error_messages:
       contains: "Nội dung bạn điền có "
@@ -93,3 +112,7 @@ vi:
     hi: "Xin chào"
     content: "Chào mừng đến với Ứng dụng mẫu! Click vào link bên dưới để kích hoạt tài khoản của bạn:"
     activate: "Kích hoạt"
+    password_resets: "Thay đổi mật khẩu"
+    click_below: "Để thay đổi mật khẩu của bạn, nhấn vào link dưới đây:"
+    link_expire: "Link dưới đây sẽ hết hạn sau 2 giờ."
+    ignore_reset: "Nếu bạn không yêu cầu thay đổi mật khẩu, hãy bỏ qua mail này và mật khẩu của bạn sẽ giữ nguyên."
