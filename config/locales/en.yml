@@ -6,7 +6,11 @@ en:
   profile_update_fail: "Profife update failed"
   user_deleted: "User deleted"
   delete_fail: "Delete fail!"
-  ls_login: "Please log in."
+  pls_login: "Please log in."
+  account_activated: "Account activated!"
+  invalid_activation_link: "Invalid activation link"
+  account_not_actived: "Account not activated. Check your email for the activation link."
+  check_mail: "Please check your email to activate your account."
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
@@ -82,3 +86,10 @@ en:
       you_sure: "You sure?"
     index:
       all_user: "All users"
+  mailer:
+    sample_app: "Sample App"
+    account_acctivation: "Account activation"
+    reset: "Reset"
+    hi: "Hi"
+    content: "Welcome to the Sample App! Click on the link below to activate your account:"
+    activate: "Activate"

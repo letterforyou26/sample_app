@@ -7,6 +7,10 @@ vi:
   user_deleted: "Xóa thành công!"
   delete_fail: "Xóa thất bại!"
   pls_login: "Vui lòng đăng nhập trước."
+  account_activated: "Đã kích hoạt tài khoản!"
+  invalid_activation_link: "Link kích hoạt không khả dụng"
+  account_not_actived: "Tài khoản chưa được kích hoạt. Hãy kiểm tra mail của bạn."
+  check_mail: "Hãy kiểm tra mail của bạn để kích hoạt tài khoản."
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
@@ -82,3 +86,10 @@ vi:
       you_sure: "Bạn chắc chứ??"
     index:
       all_user: "Tất cả tài khoản"
+  mailer:
+    sample_app: "Ứng dụng mẫu"
+    account_acctivation: "Kích hoạt tài khoản"
+    reset: "Reset"
+    hi: "Xin chào"
+    content: "Chào mừng đến với Ứng dụng mẫu! Click vào link bên dưới để kích hoạt tài khoản của bạn:"
+    activate: "Kích hoạt"
