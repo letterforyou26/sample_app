@@ -20,3 +20,4 @@ validate:
 gravatar_email: "http://gravatar.com/emails"
 image_size: 50
 items_per_page: 5
+reset_pass_hours_expired: 2
