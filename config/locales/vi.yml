@@ -19,6 +19,7 @@ vi:
   reset_failed: "Thay đổi thất bại"
   invalid_user: "Tài khoản không hợp lệ"
   expired_pass: "Quá hạn thay đổi mật khẩu."
+  pls_chooose_smaller: "Tệp tin tối đa là 5MB. Hãy chọn tệp nhỏ hơn."
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
@@ -41,6 +42,12 @@ vi:
       news: "Tin tức"
       english: "Tiếng Anh"
       vietnamese: "Tiếng Việt"
+  microposts:
+    micropost:
+      posted: "Đăng"
+      ago: "trước."
+      delete: "xóa"
+      you_sure: "Bạn chắc chứ?"
   password_resets:
     edit:
       reset_pass: "Thay đổi mật khẩu"
@@ -64,6 +71,12 @@ vi:
     error_messages:
       contains: "Nội dung bạn điền có "
       error: "lỗi"
+    micropost_form:
+      compose_new_post: "Thêm bài viết mới"
+      post: "Đăng bài"
+    user_info:
+      view_my_profile: "Xem hồ sơ của tôi"
+      micropost: "bài đăng"
   static_pages:
     home:
       home: "Trang chủ"
@@ -105,6 +118,8 @@ vi:
       you_sure: "Bạn chắc chứ??"
     index:
       all_user: "Tất cả tài khoản"
+    show:
+      microposts: "bài đăng"
   mailer:
     sample_app: "Ứng dụng mẫu"
     account_acctivation: "Kích hoạt tài khoản"
@@ -116,3 +131,22 @@ vi:
     click_below: "Để thay đổi mật khẩu của bạn, nhấn vào link dưới đây:"
     link_expire: "Link dưới đây sẽ hết hạn sau 2 giờ."
     ignore_reset: "Nếu bạn không yêu cầu thay đổi mật khẩu, hãy bỏ qua mail này và mật khẩu của bạn sẽ giữ nguyên."
+  micropost:
+    created: "Đã tạo bài đăng!"
+    created_fail: "Tạo bài đăng thất bại"
+    deleted: "Đã xóa bài đăng!"
+    deleted_fail: "Xóa thất bại"
+    invalid: "Bài đăng không khả dụng"
+  follow:
+    following: "Đang theo dõi"
+    followers: "Người theo dõi"
+    follow: "Theo dõi"
+    unfollow: "Bỏ theo dõi"
+  activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              invalid_format_image: "phải là định dạng hình ảnh"
+              should_smaller: "ảnh phải có dung lượng nhỏ hơn 5MB"

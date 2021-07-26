@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   before_action :admin?, only: :destroy
 
   def index
-    @users = User.all.page(params[:page]).per Settings.items_per_page
+    @users = User.all.page(params[:page]).per Settings.users_per_page
   end
 
   def new
@@ -21,7 +21,10 @@ class UsersController < ApplicationController
     redirect_to login_url
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.recent_posts.page(params[:page])
+                       .per Settings.posts_per_page
+  end
 
   def edit; end
 
@@ -46,28 +49,11 @@ class UsersController < ApplicationController
 
   private
   def user_params
-    params.require(:user).permit :name, :email, :password,
-                                 :password_confirmation
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "pls_login"
-    redirect_to login_url
+    params.require(:user).permit User::USER_PARAMS
   end
 
   def correct_user
     redirect_to root_url unless @user == current_user
-  end
-
-  def find_user
-    @user = User.find_by id: params[:id]
-    return if @user
-
-    flash[:danger] = t ".user_not_found"
-    redirect_to root_path
   end
 
   def admin?
