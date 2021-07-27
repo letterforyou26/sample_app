@@ -56,14 +56,6 @@ class UsersController < ApplicationController
     redirect_to root_url unless @user == current_user
   end
 
-  def find_user
-    @user = User.find_by id: params[:id]
-    return if @user
-
-    flash[:danger] = t ".user_not_found"
-    redirect_to root_path
-  end
-
   def admin?
     redirect_to root_url unless current_user.admin?
   end

@@ -137,6 +137,11 @@ en:
     deleted: "Micropost deleted!"
     deleted_fail: "Deleted fail"
     invalid: "Micropost invalid"
+  follow:
+    following: "Following"
+    followers: "Followers"
+    follow: "Follow"
+    unfollow: "Unfollow"
   activerecord:
     errors:
       models:

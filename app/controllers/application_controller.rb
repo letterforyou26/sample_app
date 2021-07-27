@@ -15,6 +15,14 @@ class ApplicationController < ActionController::Base
     {locale: I18n.locale}
   end
 
+  def find_user
+    @user = User.find_by id: params[:id]
+    return if @user
+
+    flash[:danger] = t ".user_not_found"
+    redirect_to root_path
+  end
+
   def logged_in_user
     return if logged_in?
 

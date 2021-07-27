@@ -137,6 +137,11 @@ vi:
     deleted: "Đã xóa bài đăng!"
     deleted_fail: "Xóa thất bại"
     invalid: "Bài đăng không khả dụng"
+  follow:
+    following: "Đang theo dõi"
+    followers: "Người theo dõi"
+    follow: "Theo dõi"
+    unfollow: "Bỏ theo dõi"
   activerecord:
     errors:
       models:

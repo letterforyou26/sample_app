@@ -28,3 +28,5 @@ validate:
     max_length: 30
   password:
     min_length: 6
+follow_per_page: 10
+small_image_size: 30
